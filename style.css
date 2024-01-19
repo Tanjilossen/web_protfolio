@@ -1,8 +1,15 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: orange;
@@ -19,4 +26,29 @@ h1{
 }
 .halp_page img{
    width: 100%;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat
+}
+section{
+    height: 500px;
+    padding-bottom: 250px;
+}
+.hire-batton{
+    padding: 10px 20px;
+    margin-left: 50px;
+    background-color: orangered;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+.left-sid{
+    width: 100%;
+}
+.dream-area{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
